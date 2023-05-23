@@ -7,6 +7,7 @@ const placesRoutes = require('./routes/places-routes');
 const HttpError = require('./models/http-error');
 
 const app = express();
+//const app = express();
 
 app.use(bodyParser.json());
 
